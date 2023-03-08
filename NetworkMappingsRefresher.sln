@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2036
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkMappingsRefresher", "NetworkMappingsRefresher\NetworkMappingsRefresher.csproj", "{757D7142-FC0C-4348-AB1A-224473835533}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkMappingsRefresher", "NetworkMappingsRefresher\NetworkMappingsRefresher.csproj", "{79878500-E82F-4C89-86C5-750336BFEC8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkMappingsRefresherDemo", "NetworkMappingsRefresherDemo\NetworkMappingsRefresherDemo.csproj", "{4A029323-488F-4D55-A2D9-FB49F0020E03}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkRefreshingsMapperDemo", "NetworkRefreshingsMapperDemo\NetworkRefreshingsMapperDemo.csproj", "{5D41AB03-10A1-4D31-B6CA-F83C1D9C3D17}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,16 +13,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{757D7142-FC0C-4348-AB1A-224473835533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{757D7142-FC0C-4348-AB1A-224473835533}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{757D7142-FC0C-4348-AB1A-224473835533}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{757D7142-FC0C-4348-AB1A-224473835533}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4A029323-488F-4D55-A2D9-FB49F0020E03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4A029323-488F-4D55-A2D9-FB49F0020E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4A029323-488F-4D55-A2D9-FB49F0020E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4A029323-488F-4D55-A2D9-FB49F0020E03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79878500-E82F-4C89-86C5-750336BFEC8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79878500-E82F-4C89-86C5-750336BFEC8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79878500-E82F-4C89-86C5-750336BFEC8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79878500-E82F-4C89-86C5-750336BFEC8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D41AB03-10A1-4D31-B6CA-F83C1D9C3D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D41AB03-10A1-4D31-B6CA-F83C1D9C3D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D41AB03-10A1-4D31-B6CA-F83C1D9C3D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D41AB03-10A1-4D31-B6CA-F83C1D9C3D17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A33B3A30-50E4-4B4E-8DAC-6E0262C2A044}
 	EndGlobalSection
 EndGlobal
