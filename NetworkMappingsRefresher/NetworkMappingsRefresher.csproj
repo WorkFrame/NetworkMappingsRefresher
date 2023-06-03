@@ -12,6 +12,14 @@
     <Company>NetEti</Company>
     <Description>Assembly zur Aktualisierung von gelisteten Netzwerk-Laufwerken</Description>
     <Copyright>Copyright © $(Authors) 2015-2023</Copyright>
+    <AssemblyVersion>7.0.1.0</AssemblyVersion>
+    <FileVersion>7.0.1.0</FileVersion>
+    <PackageTags>NetEti Framework Refresh Network Drive Mapping</PackageTags>
   </PropertyGroup>
+
+  <PropertyGroup>
+    <AssemblyRoot>$(ProjectDir)../../../ReadyBin/Assemblies</AssemblyRoot>
+  </PropertyGroup>
+  <Import Project="$(ProjectDir)../../AddOn/proj/*" Condition="exists('$(ProjectDir)../../AddOn/proj')" />
 
 </Project>
