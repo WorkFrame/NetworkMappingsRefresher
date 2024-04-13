@@ -40,7 +40,7 @@
         /// <summary>
         /// Überschriebene ToString-Methode.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Properties als String.</returns>
         public override string ToString()
         {
             return String.Format($@"{this.DriveLetter}: {this.Path}, {this.IsReady.ToString()}");
