@@ -15,6 +15,7 @@ namespace NetEti.FileTools
     /// 20.02.2015 Erik Nagel: erstellt
     /// 28.02.2023 Erik Nagel: überarbeitet.
     /// 20.02.2024 Erik Nagel: erneut überarbeitet und GetNextReachablePath hinzugefügt.
+    /// 31.05.2025 Erik Nagel: Bugfix in IsPathServerReachable: Berücksichtigung von Pfaden, die mit "." beginnen.
     /// </remarks>
     public static class NetworkMappingsRefresher
 	{
@@ -157,9 +158,16 @@ namespace NetEti.FileTools
 
         private static bool IsPathServerReachable(string path, bool reloadServers = false)
         {
-            if (path.Length > 1 && path[1] == ':')
+            if (path.Length > 0)
             {
-                return true;
+                if (path[0] == '.')
+                {
+                    return true;
+                }
+                if (path.Length > 1 && path[1] == ':')
+                {
+                    return true;
+                }
             }
             string server = path;
             if (server.StartsWith("\\\\") || server.StartsWith(@"//"))
